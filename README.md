@@ -1,5 +1,5 @@
 <p align="center">
-<h1>Learn Firebase Authentication and deploying JQueru Black Jack Game under Angular 7<h1>
+<h1>Learn Firebase Authentication and JQuery Black Jack under Angular 7<h1>
 </p>
 
 # Black Jack FireStarter
