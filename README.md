@@ -1,18 +1,12 @@
 <p align="center">
-
-<a href="https://slackin-pbfjhfxnsa.now.sh"><img src="https://slackin-pbfjhfxnsa.now.sh/badge.svg"></a>
-
-<a href="https://circleci.com/gh/codediodeio/angular-firestarter"><img src="https://circleci.com/gh/codediodeio/angular-firestarter.svg?style=svg"></a>
-
+Learn Firebase Authentication and deploying JQueru Black Jack Game under Angular 7
 </p>
 
 # FireStarter
 
 FireStarter is an Angular PWA powered by Firebase. It can serve as a foundation to learn this stack and roll out more complex features.
+- [Live Demo](https://authentication-39f95.firebaseapp.com/)
 
-- [Live Demo](https://firestarter-96e46.firebaseapp.com/)
-- [Lessons and Screencasts](https://angularfirebase.com)
-- [Join the Slack Team](https://goo.gl/qF8Q5r)
 
 ## Features
 
@@ -21,14 +15,13 @@ FireStarter is an Angular PWA powered by Firebase. It can serve as a foundation 
 - Firebase Auth, Storage, and Cloud Firestore Demos
 - Angular Universal Prerendered SSR (deployed to Firebase Static Hosting)
 - End-to-End Testing with Cypress.io
-- Continuous Integration with CircleCI
 
 ## Usage
 
 1.  Run
 
-- `git clone https://github.com/codediodeio/angular-firestarter.git firestarter`
-- `cd firestarter`
+- `git clone https://github.com/StarDrop9/BlackJackFirestoreAuth.git blackjackfirestarter`
+- `cd blackjackfirestarter`
 - `npm install`
 
 2.  Create a project at https://firebase.google.com/ and grab your web config:
