@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import {DragDropModule} from '@angular/cdk/drag-drop';
 
 // Firestarter App Modules
 import { CoreModule } from './core/core.module';
@@ -21,16 +22,18 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireStorageModule } from '@angular/fire/storage';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { AngularFireFunctionsModule } from '@angular/fire/functions';
-
+import { DndlistsComponent } from './dndlists/dndlists.component';
+import { BlackjackComponent } from './blackjack/blackjack.component';
 // IMPORTANT
 // Add your own project credentials to environments/*.ts
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, DndlistsComponent,BlackjackComponent],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
     BrowserTransferStateModule,
     AppRoutingModule,
+    DragDropModule,
     CoreModule,
     UiModule,
     NotesModule,

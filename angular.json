@@ -30,7 +30,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": ["src/assets/js/jquery.js","src/assets/js/blackjack.js"
+              
+            ]
           },
           "configurations": {
             "production": {
@@ -80,7 +82,8 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": [],
+            "scripts": ["src/assets/js/jquery.js","src/assets/js/blackjack.js"
+              ],
             "assets": [
               "src/favicon.ico",
               "src/assets",

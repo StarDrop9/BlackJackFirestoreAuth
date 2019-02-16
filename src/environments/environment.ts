@@ -2,7 +2,7 @@
 // `ng build ---prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
-export const environment = {
+/* export const environment = {
   production: false,
   firebase: {
     apiKey: 'AIzaSyAc9Tt8pQQF3ntu2Tz66iUKl_fXHtdhIyc',
@@ -12,7 +12,22 @@ export const environment = {
     storageBucket: 'firestarter-96e46.appspot.com',
     messagingSenderId: '581326886241'
   }
+}; */
+
+export const environment = {
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyANnAtOnGx3YPkyJcKQTXzTyFjfg1tLSEk",
+    authDomain: "authentication-39f95.firebaseapp.com",
+    databaseURL: "https://authentication-39f95.firebaseio.com",
+    projectId: "authentication-39f95",
+    storageBucket: "authentication-39f95.appspot.com",
+    messagingSenderId: "11849414475"
+  }
 };
+
+
+
 
 /*
  * In development mode, to ignore zone related error stack frames such as
