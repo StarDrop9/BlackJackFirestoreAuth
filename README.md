@@ -1,8 +1,8 @@
 <p align="center">
-Learn Firebase Authentication and deploying JQueru Black Jack Game under Angular 7
+<h1>Learn Firebase Authentication and deploying JQueru Black Jack Game under Angular 7<h1>
 </p>
 
-# FireStarter
+# Black Jack FireStarter
 
 FireStarter is an Angular PWA powered by Firebase. It can serve as a foundation to learn this stack and roll out more complex features.
 - [Live Demo](https://authentication-39f95.firebaseapp.com/)
